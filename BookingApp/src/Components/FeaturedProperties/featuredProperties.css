@@ -1,0 +1,40 @@
+.fp {
+  display: flex;
+  justify-content: space-between;
+}
+.fpItem {
+  justify-self: center;
+}
+.fpItem img {
+  width: 19rem;
+  height: 16rem;
+  border-radius: 4%;
+}
+.fpItem span {
+  display: block;
+}
+.fpName {
+  font-weight: 500;
+}
+.fpCity {
+  color: rgb(108, 108, 108);
+  margin-bottom: 0.5rem;
+}
+.fpPrice {
+  font-weight: 700;
+}
+.fpRating {
+  margin-top: 0.4rem;
+}
+.fpRating button {
+  border: 1px solid transparent;
+  border-radius: 20%;
+  font-size: 1rem;
+  padding: 0.3rem;
+  background-color: #04ef3f;
+  color: #000;
+}
+.fpRating span {
+  display: inline;
+  margin-left: 1rem;
+}

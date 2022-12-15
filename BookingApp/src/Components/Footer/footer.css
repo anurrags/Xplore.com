@@ -1,0 +1,19 @@
+.footer {
+  padding: 1rem 4rem;
+  color: #1e598d;
+}
+.fLists {
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  list-style-type: none;
+}
+.fListItem {
+  margin-bottom: 0.5rem;
+}
+.fText {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #999b9d;
+}

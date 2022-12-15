@@ -1,0 +1,102 @@
+.listDiv {
+  margin: 2rem 4rem 2rem 4rem;
+  display: flex;
+  justify-content: center;
+}
+.listWrapper {
+  display: flex;
+  gap: 1.25rem;
+  width: 100%;
+}
+.listSearch {
+  align-self: flex-start;
+  flex: 1;
+  background-color: #febb02;
+  padding: 0.7rem;
+  height: fit-content;
+  position: sticky;
+  top: 1rem;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+.lsTitle {
+  font-size: 2rem;
+  color: #414141;
+}
+.labDestination {
+  display: block;
+  font-size: 1.15rem;
+  margin-bottom: 0.4rem;
+}
+.InDestination {
+  padding: 0.5rem 0.8rem;
+  font-size: 1.2rem;
+  border: 1px solid transparent;
+  width: 15.3rem;
+}
+.lsItem {
+  margin-bottom: 1.2rem;
+}
+.lsItemSecond {
+  position: relative;
+}
+.labCheckinDate {
+  display: block;
+  font-size: 1.15rem;
+  margin-bottom: 0.4rem;
+}
+.dateSet {
+  display: block;
+  background-color: #fff;
+  font-size: 1.2rem;
+  padding: 0.5rem 0.8rem;
+}
+.datePicker {
+  z-index: 1;
+  position: absolute;
+  top: 1.8rem;
+  left: 15rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.labOptions {
+  display: block;
+  font-size: 1.15rem;
+  margin-bottom: 1rem;
+}
+.lbSmall {
+  font-size: 0.7rem;
+  color: #414141;
+}
+.lsOptions {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+}
+.lsOptions div {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.4rem;
+}
+.lsOptions div label {
+  font-size: 1rem;
+}
+
+.lsOptions div input {
+  padding: 0.3rem 0.3rem;
+  font-size: 1rem;
+  border: 1px solid transparent;
+  width: 3rem;
+  text-align: center;
+}
+.searchBtn {
+  border: 1px solid transparent;
+  border-radius: 2%;
+  background-color: #395dfc;
+  color: #fff;
+  width: 100%;
+  padding: 0.3rem 0.5rem;
+  font-size: 1.2rem;
+}
+.listResult {
+  flex: 3;
+}

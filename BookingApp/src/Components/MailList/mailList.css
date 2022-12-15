@@ -1,0 +1,32 @@
+.mail {
+  background-color: #f89407;
+  padding: 2rem 4rem;
+  margin: 2rem 0;
+}
+.mailTitle {
+  margin-bottom: 0.2rem;
+  font-size: 2.5rem;
+}
+.mailInputContainer {
+  display: flex;
+  margin: 2.5rem 0;
+}
+.mailDesc {
+  font-size: 1rem;
+}
+.mailInputContainer input {
+  font-size: 1rem;
+  margin-right: 1rem;
+  padding: 0.5rem;
+  width: 16rem;
+  border: 1px solid transparent;
+  border-radius: 2%;
+}
+.mailInputContainer button {
+  font-size: 1rem;
+  padding: 0.8rem;
+  background-color: #2d67fc;
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 5%;
+}
